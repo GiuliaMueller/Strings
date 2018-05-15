@@ -7,6 +7,13 @@ public class Strings {
 		System.out.println(1 + 2 + "3");
 		System.out.println("1" + 2 + 3);
 		System.out.println("1" + "2" +true+ 3);
+		
+		// Strings are immutable, its methods create new String
+		// objects, and return the new String object.
+		String immutable = "Can't be changed";
+		System.out.println(immutable);
+		System.out.println(immutable.replace("Can't be changed", "Or can it?"));
+		System.out.println(immutable);
 	}
 
 }
