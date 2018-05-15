@@ -25,6 +25,9 @@ public class Strings {
 			// one to the String Pool, and ten to the Heap.
 		}
 		
+		// The String class' method are available to String literal
+		System.out.println("abcdefg".toUpperCase());
+				
 	}
 
 }
