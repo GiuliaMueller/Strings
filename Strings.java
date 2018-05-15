@@ -14,6 +14,17 @@ public class Strings {
 		System.out.println(immutable);
 		System.out.println(immutable.replace("Can't be changed", "Or can it?"));
 		System.out.println(immutable);
+		
+		// How many String objects will be instantiated during execution
+		// of the following code block?
+		String one = null, two = null;
+		for (int i=0; i<10; i++) {
+			one = "Permanent String";
+			two = new String ("Temporary String");
+			// Answer is 11 String objects were instantiated,
+			// one to the String Pool, and ten to the Heap.
+		}
+		
 	}
 
 }
